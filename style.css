@@ -41,3 +41,21 @@ main {
     justify-content: center;
     flex-grow: 1;
 }
+
+#contenedor {
+    width: 100%;
+    background-color: blue;
+    flex-direction: row;
+}
+
+#contenedor img {
+    width: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    background-color: red;
+}
